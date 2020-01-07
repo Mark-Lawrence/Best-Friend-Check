@@ -1,0 +1,6 @@
+framework module Pods_Best_Friend_Check {
+  umbrella header "Pods-Best Friend Check-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F1ACACE21B1FDB90071794C /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1ACACD21B1FDB90071794C /* IntentHandler.swift */; };
+		5F1ACAD521B1FDBA0071794C /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1ACAAC21B1F73A0071794C /* IntentsUI.framework */; };
+		5F1ACAD821B1FDBA0071794C /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1ACAD721B1FDBA0071794C /* IntentViewController.swift */; };
+		5F1ACADB21B1FDBA0071794C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1ACAD921B1FDBA0071794C /* MainInterface.storyboard */; };
+		5F1ACADF21B1FDBA0071794C /* BestFriendCheckIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5F1ACAD421B1FDB90071794C /* BestFriendCheckIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5F1ACAE221B1FDBA0071794C /* BestFriendCheckIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5F1ACACB21B1FDB80071794C /* BestFriendCheckIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5F1ACAEA21B1FE1C0071794C /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5F1ACAE921B1FE1C0071794C /* Intents.intentdefinition */; };
+		5F1ACAEB21B1FE900071794C /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5F1ACAE921B1FE1C0071794C /* Intents.intentdefinition */; };
+		5F1ACAEC21B1FE910071794C /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5F1ACAE921B1FE1C0071794C /* Intents.intentdefinition */; };
+		5F1ACAEE21B1FF2C0071794C /* NewFriendCheckIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1ACAED21B1FF2C0071794C /* NewFriendCheckIntentHandler.swift */; };
+		5F1ACAFE21B2114E0071794C /* SendNewFriendCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1ACAFD21B2114E0071794C /* SendNewFriendCheck.swift */; };
+		5F5A822A21B0F15A00FA2AE0 /* CheckNotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A822921B0F15A00FA2AE0 /* CheckNotificationDelegate.swift */; };
+		5FAAB4E421B33D4900976271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FAD8C9B21AC92E9007AB538 /* Assets.xcassets */; };
 		5FAD8C9521AC92E5007AB538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8C9421AC92E5007AB538 /* AppDelegate.swift */; };
 		5FAD8C9721AC92E5007AB538 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8C9621AC92E5007AB538 /* ViewController.swift */; };
 		5FAD8C9A21AC92E5007AB538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FAD8C9821AC92E5007AB538 /* Main.storyboard */; };
 		5FAD8C9C21AC92E9007AB538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FAD8C9B21AC92E9007AB538 /* Assets.xcassets */; };
 		5FAD8C9F21AC92E9007AB538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FAD8C9D21AC92E9007AB538 /* LaunchScreen.storyboard */; };
+		5FAD8CA721ACC9CE007AB538 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FAD8CA621ACC9CE007AB538 /* GoogleService-Info.plist */; };
+		5FAD8CAD21ACCF42007AB538 /* NewFriendCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8CAC21ACCF42007AB538 /* NewFriendCheck.swift */; };
+		5FAD8CB221ACD9EC007AB538 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8CB121ACD9EC007AB538 /* User.swift */; };
+		5FAD8CB421ACDA01007AB538 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8CB321ACDA01007AB538 /* LoginViewController.swift */; };
+		5FAD8CB621ACE72E007AB538 /* CheckFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8CB521ACE72E007AB538 /* CheckFriendsViewController.swift */; };
+		5FAD8CB821AD047D007AB538 /* ActiveUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8CB721AD047D007AB538 /* ActiveUser.swift */; };
+		5FFF9FDE21B240030069F870 /* SendNewFriendCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1ACAFD21B2114E0071794C /* SendNewFriendCheck.swift */; };
+		5FFF9FE121B2DE860069F870 /* SendNewFriendCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1ACAFD21B2114E0071794C /* SendNewFriendCheck.swift */; };
+		D977F39F5BD426ECF9F78DDA /* Pods_Best_Friend_Check.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65861C5F382BA7056C5BA83B /* Pods_Best_Friend_Check.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5F1ACADD21B1FDBA0071794C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FAD8C8921AC92E5007AB538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F1ACAD321B1FDB90071794C;
+			remoteInfo = BestFriendCheckIntentUI;
+		};
+		5F1ACAE021B1FDBA0071794C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FAD8C8921AC92E5007AB538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F1ACACA21B1FDB80071794C;
+			remoteInfo = BestFriendCheckIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F5A823A21B0F32300FA2AE0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5F1ACADF21B1FDBA0071794C /* BestFriendCheckIntentUI.appex in Embed App Extensions */,
+				5F1ACAE221B1FDBA0071794C /* BestFriendCheckIntent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		12D6C4EE17AE26875567D418 /* Pods-Best Friend Check.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Best Friend Check.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Best Friend Check/Pods-Best Friend Check.debug.xcconfig"; sourceTree = "<group>"; };
+		229D728D43906C983CA9890B /* Pods-Best Friend Check.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Best Friend Check.release.xcconfig"; path = "Pods/Target Support Files/Pods-Best Friend Check/Pods-Best Friend Check.release.xcconfig"; sourceTree = "<group>"; };
+		5F1ACAAC21B1F73A0071794C /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		5F1ACACB21B1FDB80071794C /* BestFriendCheckIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BestFriendCheckIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1ACACD21B1FDB90071794C /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		5F1ACACF21B1FDB90071794C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1ACAD421B1FDB90071794C /* BestFriendCheckIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BestFriendCheckIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1ACAD721B1FDBA0071794C /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		5F1ACADA21B1FDBA0071794C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		5F1ACADC21B1FDBA0071794C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1ACAE921B1FE1C0071794C /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		5F1ACAED21B1FF2C0071794C /* NewFriendCheckIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFriendCheckIntentHandler.swift; sourceTree = "<group>"; };
+		5F1ACAFD21B2114E0071794C /* SendNewFriendCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendNewFriendCheck.swift; sourceTree = "<group>"; };
+		5F5A822921B0F15A00FA2AE0 /* CheckNotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckNotificationDelegate.swift; sourceTree = "<group>"; };
+		5FAAB4E321B2E8A200976271 /* BestFriendCheckIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BestFriendCheckIntent.entitlements; sourceTree = "<group>"; };
+		5FAAB4E521B33DDA00976271 /* BestFriendCheckIntentUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BestFriendCheckIntentUI.entitlements; sourceTree = "<group>"; };
 		5FAD8C9121AC92E5007AB538 /* Best Friend Check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Best Friend Check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FAD8C9421AC92E5007AB538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FAD8C9621AC92E5007AB538 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,24 +92,87 @@
 		5FAD8C9B21AC92E9007AB538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FAD8C9E21AC92E9007AB538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FAD8CA021AC92E9007AB538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FAD8CA621ACC9CE007AB538 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5FAD8CAC21ACCF42007AB538 /* NewFriendCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFriendCheck.swift; sourceTree = "<group>"; };
+		5FAD8CB021ACD9CD007AB538 /* Best Friend Check.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Best Friend Check.entitlements"; sourceTree = "<group>"; };
+		5FAD8CB121ACD9EC007AB538 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5FAD8CB321ACDA01007AB538 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5FAD8CB521ACE72E007AB538 /* CheckFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckFriendsViewController.swift; sourceTree = "<group>"; };
+		5FAD8CB721AD047D007AB538 /* ActiveUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveUser.swift; sourceTree = "<group>"; };
+		65861C5F382BA7056C5BA83B /* Pods_Best_Friend_Check.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Best_Friend_Check.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEF7431567F4F0BF9CABDBF /* Pods_BestFriendCheckIntent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestFriendCheckIntent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A636E539B672621B4BF7C4 /* Pods_BestFriendCheckIntentUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestFriendCheckIntentUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5FAD8C8E21AC92E5007AB538 /* Frameworks */ = {
+		5F1ACAC821B1FDB80071794C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F1ACAD121B1FDB90071794C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1ACAD521B1FDBA0071794C /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FAD8C8E21AC92E5007AB538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D977F39F5BD426ECF9F78DDA /* Pods_Best_Friend_Check.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4717B24A7686ADB0364F96C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65861C5F382BA7056C5BA83B /* Pods_Best_Friend_Check.framework */,
+				5F1ACAAC21B1F73A0071794C /* IntentsUI.framework */,
+				9DEF7431567F4F0BF9CABDBF /* Pods_BestFriendCheckIntent.framework */,
+				D3A636E539B672621B4BF7C4 /* Pods_BestFriendCheckIntentUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F1ACACC21B1FDB90071794C /* BestFriendCheckIntent */ = {
+			isa = PBXGroup;
+			children = (
+				5FAAB4E321B2E8A200976271 /* BestFriendCheckIntent.entitlements */,
+				5F1ACACD21B1FDB90071794C /* IntentHandler.swift */,
+				5F1ACACF21B1FDB90071794C /* Info.plist */,
+				5F1ACAED21B1FF2C0071794C /* NewFriendCheckIntentHandler.swift */,
+			);
+			path = BestFriendCheckIntent;
+			sourceTree = "<group>";
+		};
+		5F1ACAD621B1FDBA0071794C /* BestFriendCheckIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				5FAAB4E521B33DDA00976271 /* BestFriendCheckIntentUI.entitlements */,
+				5F1ACAD721B1FDBA0071794C /* IntentViewController.swift */,
+				5F1ACAD921B1FDBA0071794C /* MainInterface.storyboard */,
+				5F1ACADC21B1FDBA0071794C /* Info.plist */,
+			);
+			path = BestFriendCheckIntentUI;
+			sourceTree = "<group>";
+		};
 		5FAD8C8821AC92E5007AB538 = {
 			isa = PBXGroup;
 			children = (
 				5FAD8C9321AC92E5007AB538 /* Best Friend Check */,
+				5F1ACACC21B1FDB90071794C /* BestFriendCheckIntent */,
+				5F1ACAD621B1FDBA0071794C /* BestFriendCheckIntentUI */,
 				5FAD8C9221AC92E5007AB538 /* Products */,
+				C41E87E6E43C96D08EFA7DCB /* Pods */,
+				4717B24A7686ADB0364F96C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				5FAD8C9121AC92E5007AB538 /* Best Friend Check.app */,
+				5F1ACACB21B1FDB80071794C /* BestFriendCheckIntent.appex */,
+				5F1ACAD421B1FDB90071794C /* BestFriendCheckIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,30 +189,88 @@
 		5FAD8C9321AC92E5007AB538 /* Best Friend Check */ = {
 			isa = PBXGroup;
 			children = (
+				5FAD8CB021ACD9CD007AB538 /* Best Friend Check.entitlements */,
+				5FAD8CB121ACD9EC007AB538 /* User.swift */,
+				5FAD8CAC21ACCF42007AB538 /* NewFriendCheck.swift */,
+				5FAD8CB721AD047D007AB538 /* ActiveUser.swift */,
 				5FAD8C9421AC92E5007AB538 /* AppDelegate.swift */,
 				5FAD8C9621AC92E5007AB538 /* ViewController.swift */,
+				5FAD8CB521ACE72E007AB538 /* CheckFriendsViewController.swift */,
+				5FAD8CB321ACDA01007AB538 /* LoginViewController.swift */,
+				5F1ACAFD21B2114E0071794C /* SendNewFriendCheck.swift */,
 				5FAD8C9821AC92E5007AB538 /* Main.storyboard */,
 				5FAD8C9B21AC92E9007AB538 /* Assets.xcassets */,
+				5FAD8CA621ACC9CE007AB538 /* GoogleService-Info.plist */,
 				5FAD8C9D21AC92E9007AB538 /* LaunchScreen.storyboard */,
 				5FAD8CA021AC92E9007AB538 /* Info.plist */,
+				5F5A822921B0F15A00FA2AE0 /* CheckNotificationDelegate.swift */,
+				5F1ACAE921B1FE1C0071794C /* Intents.intentdefinition */,
 			);
 			path = "Best Friend Check";
+			sourceTree = "<group>";
+		};
+		C41E87E6E43C96D08EFA7DCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12D6C4EE17AE26875567D418 /* Pods-Best Friend Check.debug.xcconfig */,
+				229D728D43906C983CA9890B /* Pods-Best Friend Check.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5FAD8C9021AC92E5007AB538 /* Best Friend Check */ = {
+		5F1ACACA21B1FDB80071794C /* BestFriendCheckIntent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FAD8CA321AC92E9007AB538 /* Build configuration list for PBXNativeTarget "Best Friend Check" */;
+			buildConfigurationList = 5F1ACAE621B1FDBA0071794C /* Build configuration list for PBXNativeTarget "BestFriendCheckIntent" */;
 			buildPhases = (
-				5FAD8C8D21AC92E5007AB538 /* Sources */,
-				5FAD8C8E21AC92E5007AB538 /* Frameworks */,
-				5FAD8C8F21AC92E5007AB538 /* Resources */,
+				5F1ACAC721B1FDB80071794C /* Sources */,
+				5F1ACAC821B1FDB80071794C /* Frameworks */,
+				5F1ACAC921B1FDB80071794C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = BestFriendCheckIntent;
+			productName = BestFriendCheckIntent;
+			productReference = 5F1ACACB21B1FDB80071794C /* BestFriendCheckIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5F1ACAD321B1FDB90071794C /* BestFriendCheckIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1ACAE321B1FDBA0071794C /* Build configuration list for PBXNativeTarget "BestFriendCheckIntentUI" */;
+			buildPhases = (
+				5F1ACAD021B1FDB90071794C /* Sources */,
+				5F1ACAD121B1FDB90071794C /* Frameworks */,
+				5F1ACAD221B1FDB90071794C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BestFriendCheckIntentUI;
+			productName = BestFriendCheckIntentUI;
+			productReference = 5F1ACAD421B1FDB90071794C /* BestFriendCheckIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5FAD8C9021AC92E5007AB538 /* Best Friend Check */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FAD8CA321AC92E9007AB538 /* Build configuration list for PBXNativeTarget "Best Friend Check" */;
+			buildPhases = (
+				241BECBA7D45859D468CA483 /* [CP] Check Pods Manifest.lock */,
+				5FAD8C8D21AC92E5007AB538 /* Sources */,
+				5FAD8C8E21AC92E5007AB538 /* Frameworks */,
+				5FAD8C8F21AC92E5007AB538 /* Resources */,
+				DDFD4E42E9CF411794FC3CD2 /* [CP] Embed Pods Frameworks */,
+				5F5A823A21B0F32300FA2AE0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F1ACADE21B1FDBA0071794C /* PBXTargetDependency */,
+				5F1ACAE121B1FDBA0071794C /* PBXTargetDependency */,
 			);
 			name = "Best Friend Check";
 			productName = "Best Friend Check";
@@ -94,8 +287,41 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Mark Lawrence";
 				TargetAttributes = {
+					5F1ACACA21B1FDB80071794C = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					5F1ACAD321B1FDB90071794C = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					5FAD8C9021AC92E5007AB538 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -113,15 +339,34 @@
 			projectRoot = "";
 			targets = (
 				5FAD8C9021AC92E5007AB538 /* Best Friend Check */,
+				5F1ACACA21B1FDB80071794C /* BestFriendCheckIntent */,
+				5F1ACAD321B1FDB90071794C /* BestFriendCheckIntentUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5F1ACAC921B1FDB80071794C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1ACAD221B1FDB90071794C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FAAB4E421B33D4900976271 /* Assets.xcassets in Resources */,
+				5F1ACADB21B1FDBA0071794C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5FAD8C8F21AC92E5007AB538 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FAD8CA721ACC9CE007AB538 /* GoogleService-Info.plist in Resources */,
 				5FAD8C9F21AC92E9007AB538 /* LaunchScreen.storyboard in Resources */,
 				5FAD8C9C21AC92E9007AB538 /* Assets.xcassets in Resources */,
 				5FAD8C9A21AC92E5007AB538 /* Main.storyboard in Resources */,
@@ -130,19 +375,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		241BECBA7D45859D468CA483 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Best Friend Check-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDFD4E42E9CF411794FC3CD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Best Friend Check/Pods-Best Friend Check-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Best Friend Check/Pods-Best Friend Check-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		5F1ACAC721B1FDB80071794C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1ACAEB21B1FE900071794C /* Intents.intentdefinition in Sources */,
+				5FFF9FDE21B240030069F870 /* SendNewFriendCheck.swift in Sources */,
+				5F1ACACE21B1FDB90071794C /* IntentHandler.swift in Sources */,
+				5F1ACAEE21B1FF2C0071794C /* NewFriendCheckIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1ACAD021B1FDB90071794C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1ACAEC21B1FE910071794C /* Intents.intentdefinition in Sources */,
+				5FFF9FE121B2DE860069F870 /* SendNewFriendCheck.swift in Sources */,
+				5F1ACAD821B1FDBA0071794C /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5FAD8C8D21AC92E5007AB538 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FAD8CB421ACDA01007AB538 /* LoginViewController.swift in Sources */,
+				5FAD8CB621ACE72E007AB538 /* CheckFriendsViewController.swift in Sources */,
+				5F5A822A21B0F15A00FA2AE0 /* CheckNotificationDelegate.swift in Sources */,
+				5F1ACAFE21B2114E0071794C /* SendNewFriendCheck.swift in Sources */,
+				5F1ACAEA21B1FE1C0071794C /* Intents.intentdefinition in Sources */,
 				5FAD8C9721AC92E5007AB538 /* ViewController.swift in Sources */,
+				5FAD8CB821AD047D007AB538 /* ActiveUser.swift in Sources */,
+				5FAD8CAD21ACCF42007AB538 /* NewFriendCheck.swift in Sources */,
+				5FAD8CB221ACD9EC007AB538 /* User.swift in Sources */,
 				5FAD8C9521AC92E5007AB538 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5F1ACADE21B1FDBA0071794C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F1ACAD321B1FDB90071794C /* BestFriendCheckIntentUI */;
+			targetProxy = 5F1ACADD21B1FDBA0071794C /* PBXContainerItemProxy */;
+		};
+		5F1ACAE121B1FDBA0071794C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F1ACACA21B1FDB80071794C /* BestFriendCheckIntent */;
+			targetProxy = 5F1ACAE021B1FDBA0071794C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		5F1ACAD921B1FDBA0071794C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F1ACADA21B1FDBA0071794C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		5FAD8C9821AC92E5007AB538 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -162,6 +504,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5F1ACAE421B1FDBA0071794C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BestFriendCheckIntentUI/BestFriendCheckIntentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFP4CHD9U5;
+				INFOPLIST_FILE = BestFriendCheckIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Best-Friend-Check.BestFriendCheckIntentUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F1ACAE521B1FDBA0071794C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BestFriendCheckIntentUI/BestFriendCheckIntentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFP4CHD9U5;
+				INFOPLIST_FILE = BestFriendCheckIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Best-Friend-Check.BestFriendCheckIntentUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F1ACAE721B1FDBA0071794C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BestFriendCheckIntent/BestFriendCheckIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFP4CHD9U5;
+				INFOPLIST_FILE = BestFriendCheckIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Best-Friend-Check.BestFriendCheckIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F1ACAE821B1FDBA0071794C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BestFriendCheckIntent/BestFriendCheckIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFP4CHD9U5;
+				INFOPLIST_FILE = BestFriendCheckIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Best-Friend-Check.BestFriendCheckIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		5FAD8CA121AC92E9007AB538 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -280,11 +704,15 @@
 		};
 		5FAD8CA421AC92E9007AB538 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D6C4EE17AE26875567D418 /* Pods-Best Friend Check.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Best Friend Check/Best Friend Check.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFP4CHD9U5;
 				INFOPLIST_FILE = "Best Friend Check/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,17 +720,21 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Best-Friend-Check";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5FAD8CA521AC92E9007AB538 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229D728D43906C983CA9890B /* Pods-Best Friend Check.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Best Friend Check/Best Friend Check.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFP4CHD9U5;
 				INFOPLIST_FILE = "Best Friend Check/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,13 +742,31 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Best-Friend-Check";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5F1ACAE321B1FDBA0071794C /* Build configuration list for PBXNativeTarget "BestFriendCheckIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1ACAE421B1FDBA0071794C /* Debug */,
+				5F1ACAE521B1FDBA0071794C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1ACAE621B1FDBA0071794C /* Build configuration list for PBXNativeTarget "BestFriendCheckIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1ACAE721B1FDBA0071794C /* Debug */,
+				5F1ACAE821B1FDBA0071794C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5FAD8C8C21AC92E5007AB538 /* Build configuration list for PBXProject "Best Friend Check" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
